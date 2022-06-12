@@ -24,6 +24,37 @@
       top: 0;
       left: 0;
     }
+     body {
+      animation: colorchange 9s alternate infinite;
+    }
+
+    @keyframes colorchange{
+      0%{
+       background-color: blue;
+      }
+      20%{
+       background-color: rgb(247, 0, 255);
+      }
+      40%{
+       background-color: rgb(0, 255, 229);
+      }
+      60%{
+       background-color: rgb(255, 0, 106);
+      }
+      80%{
+       background-color: rgb(255, 149, 0);
+      }
+
+      100%{
+       background-color: rgb(255, 0, 0);
+      }
+    }
+    .choose {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      border-radius: 10px;
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
